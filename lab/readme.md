@@ -30,6 +30,6 @@
 ### Lab CSS: Instruction
 
 1. This task must be done in groups (**4** people per group).
-2. Please enter the group member's name into **[Google Sheets](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit?usp=sharing&ouid=116754994049085925053&rtpof=true&sd=true)**.
+2. Please enter the group member's name into **[Google Sheets](https://docs.google.com/spreadsheets/d/1b0yTckYm0z0Brp1Mg9zdQ71EGr2F6Dr4vu88bKeChkA/edit?usp=sharing)**.
 
 
