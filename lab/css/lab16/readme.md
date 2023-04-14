@@ -1,12 +1,3 @@
-<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
-
-Don't forget to hit the :star: if you like this repo.
-
 # Lab 16: Form Layout
 
 HTML form layout refers to the arrangement of form elements such as input fields, labels, buttons, and other form controls on a web page. The layout of an HTML form can have a significant impact on the user experience, as it affects the usability, accessibility, and overall visual appeal of the form.
@@ -76,7 +67,7 @@ We use CSS to style the form elements, including adding margins and padding, set
 You are required to produce a simple form layout. There are four lab practise questions in this lab that must be answered. You've been given raw HTML and images to work with for this lab. You can download the files **lab16.zip**. The following files can be found in the [**lab16.zip**](./download/lab16.zip) file:
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16a.png" width="200" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab16/download/lab16a.png" width="200" />
 </p>
 
 ## Lab 1: Survey Form
@@ -85,7 +76,7 @@ Forms are always an important part of any project that collects user input infor
 
 Figure 1.1
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16b.png" width="400" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab16/download/lab16b.png" width="400" />
 </p>
 
 ### Output
@@ -95,7 +86,7 @@ You must create the interface depicted in Figure 1.2. Please enter the appropria
 
 Figure 1.2
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16c.png" width="600" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab16/download/lab16c.png" width="600" />
 </p>
 
 ## Lab 2: Persaka Survey Form
@@ -104,7 +95,7 @@ You have been tasked with creating an appealing survey form interface for Persak
 
 Figure 2.1
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16d.png" width="600" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab16/download/lab16d.png" width="600" />
 </p>
 
 ## Lab 3: Login Page
@@ -113,12 +104,12 @@ Before users can access the system, they must first enter a username and passwor
 
 Figure 3.1
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16e.png" width="600" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab16/download/lab16e.png" width="600" />
 </p>
 
 Figure 3.2
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16f.png" width="300" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab16/download/lab16f.png" width="300" />
 </p>
 
 ## Lab 4: UTMtravel
@@ -127,12 +118,12 @@ You have been tasked with creating a search interface for UTMTravel. Users can s
 
 Figure 4.1
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16g.png" width="600" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab16/download/lab16g.png" width="600" />
 </p>
 
 Figure 4.2
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab16/download/lab16h.png" width="300" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab16/download/lab16h.png" width="300" />
 </p>
 
 ## Submission
@@ -156,10 +147,3 @@ Group:
 >
 > (Note: please replace [Name], [Matrix Number], [Github ID], [group-name], and [your-file] with the appropriate information)
 
-
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
-
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
-
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
