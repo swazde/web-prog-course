@@ -1,3 +1,3 @@
-# Materials and Labs for Web Programming course
+# Materials and Labs
 Contents:
 - 
