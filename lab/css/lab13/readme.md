@@ -1,12 +1,3 @@
-<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
-
-Don't forget to hit the :star: if you like this repo.
-
 # Lab 13: Layout (Mock & Style)
 
 ## Mock design
@@ -187,17 +178,17 @@ You must complete two layout design-related lab exercises. Lab 13a requires the 
 
 **Mock 1**: Save the file as mock1.html.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13a.png"  width="600" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab13/download/lab13a.png"  width="600" />
 </p>
 
 **Mock 2**: Save the file as mock2.html.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13b.png" width="600" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab13/download/lab13b.png" width="600" />
 </p>
 
 **Mock 3**: Save the file as mock3.html.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13c.png" width="600" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab13/download/lab13c.png" width="600" />
 </p>
 Figure 1.3: Mock 3. Save the file as mock3.html.
 
@@ -210,22 +201,22 @@ To generate interface design layouts for Style 1 through 4, you need to create a
 
 **Style 1**: Save the css file as style1.css.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13d.png" width="600" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab13/download/lab13d.png" width="600" />
 </p>
 
 **Style 2**: Save the css file as style2.css.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13e.png" width="600" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab13/download/lab13e.png" width="600" />
 </p>
 
 **Style 3**: Save the css file as style3.css.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13f.png" width="600" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab13/download/lab13f.png" width="600" />
 </p>
 
 **Style 4**: Save the css file as style4.css.
 <p align="center">
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/css/lab13/download/lab13g.png" width="600" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/css/lab13/download/lab13g.png" width="600" />
 </p>
 
 ## Submission
@@ -248,11 +239,3 @@ Group:
 > Example: /submission/[group-name]/[your-file]
 >
 > (Note: please replace [Name], [Matrix Number], [Github ID], [group-name], and [your-file] with the appropriate information)
-
-
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
-
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
-
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
