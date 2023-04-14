@@ -1,31 +1,18 @@
-<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
-
-Don't forget to hit the :star: if you like this repo.
-
-# Lab Exercise
-
-## [Submission status](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit#gid=147654102)
-
 ## Hypertext Markup Language (HTML)
 
 | Lab | Topic | Title | Files |
 | -----: | ----- | ----- | :------: | 
-| 0 | HTML | Your first HTML Page |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab0" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 1 | HTML | HTML Text Appearance |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab1" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 2 | HTML | Troubleshooting HTML 🔥 |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab2" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 3 | HTML | Format an article with HTML 🔥 |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab3" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 4 | HTML | HTML Image🔥 |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab4" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 5 | HTML | Nested List |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab5" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 6 | HTML | Table |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab6" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 7 | HTML | Timetable |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab7" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 8 | HTML | Table |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab8" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 9 | HTML | Form |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab9" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 10 | HTML | Form |<a href="https://github.com/drshahizan/learn-php/tree/main/lab/html/lab10" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 0 | HTML | Your first HTML Page |<a href="https://github.com/cwenghowe/web-prog-course/tree/main/lab/html/lab0" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 1 | HTML | HTML Text Appearance |<a href="https://github.com/cwenghowe/web-prog-course/tree/main/lab/html/lab1" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 2 | HTML | Troubleshooting HTML 🔥 |<a href="https://github.com/cwenghowe/web-prog-course/tree/main/lab/html/lab2" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 3 | HTML | Format an article with HTML 🔥 |<a href="https://github.com/cwenghowe/web-prog-course/tree/main/lab/html/lab3" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 4 | HTML | HTML Image🔥 |<a href="https://github.com/cwenghowe/web-prog-course/tree/main/lab/html/lab4" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 5 | HTML | Nested List |<a href="https://github.com/cwenghowe/web-prog-course//tree/main/lab/html/lab5" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 6 | HTML | Table |<a href="https://github.com/cwenghowe/web-prog-course//tree/main/lab/html/lab6" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 7 | HTML | Timetable |<a href="https://github.com/cwenghowe/web-prog-course//tree/main/lab/html/lab7" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 8 | HTML | Table |<a href="https://github.com/cwenghowe/web-prog-course//tree/main/lab/html/lab8" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 9 | HTML | Form |<a href="https://github.com/cwenghowe/web-prog-course//tree/main/lab/html/lab9" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
+| 10 | HTML | Form |<a href="https://github.com/cwenghowe/web-prog-course//tree/main/lab/html/lab10" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
 
 ## Cascading Style Sheets (CSS)
 
