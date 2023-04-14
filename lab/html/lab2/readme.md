@@ -2,7 +2,7 @@
 
 This webpage has been messed up by someone! You must organise this [Lab2.html](./download/Lab2.html) file. To make this web presentation more standardised, please use appropriate HTML tags.
 
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab2/download/lab2.png"  height="200" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/html/lab2/download/lab2.png"  height="200" />
 
 ## Instructions
 1. Please use the HTML template file [Lab2.html](./download/Lab2.html).
