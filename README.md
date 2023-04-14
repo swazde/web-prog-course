@@ -1,1 +1,3 @@
-# web-prog-course
+# Materials and Labs for Web Programming course
+Contents:
+- 
