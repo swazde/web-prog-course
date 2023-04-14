@@ -6,7 +6,7 @@ For example, you might use heading tags like `<h1>` and `<h2>` to create a hiera
 
 Proper use of HTML tags can also improve the accessibility of the webpage, making it easier for people with disabilities to use. In summary, by formatting the Lab3.html file using appropriate HTML tags, you can improve its overall readability, accessibility, and compliance with web development standards.
 
-<img src="https://github.com/drshahizan/learn-php/blob/main/lab/html/lab3/download/lab3.png"  height="300" />
+<img src="https://github.com/cwenghowe/web-prog-course/blob/main/lab/html/lab3/download/lab3.png"  height="300" />
 
 ## Instructions
 1. Please use the HTML template file [Lab3.html](./download/Lab3.html).
