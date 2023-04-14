@@ -32,31 +32,4 @@
 1. This task must be done in groups (**4** people per group).
 2. Please enter the group member's name into **[Google Sheets](https://docs.google.com/spreadsheets/d/1Php82HH-wrviP2rOho94JmztpPcXmgFL/edit?usp=sharing&ouid=116754994049085925053&rtpof=true&sd=true)**.
 
-## JavaScript
 
-| Lab | Topic | Title | Files |
-| -----: | ----- | ----- | :------: | 
-| 1 | JS | JavaScript (Basic) |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 2 | JS | JavaScript (Intermediate) |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 3 | JS | JavaScript (Advanced) |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 4 | JS | JS Part 1 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 5 | JS | JS Part 2 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-
-## Hypertext Preprocessor (PHP)
-
-| Lab | Topic | Title | Files |
-| -----: | ----- | ----- | :------: | 
-| 1 | PHP | How to Install XAMPP Server on Windows 11 |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 2 | PHP | How to add PHP Intelephense and PHP Server extensions in VSC |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 3 | PHP | Introduction To PHP |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 4 | PHP | How to run PHP on Visual Studio Code |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 5 | PHP | HP & MySQL source code |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 6 | PHP | Tourism Management System |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-| 7 | PHP | Hospital Management System |<a href="" ><img src="../images/folder_info.png" width="24px" height="24px" ></a> |
-
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
-
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
-
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
