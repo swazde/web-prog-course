@@ -1,12 +1,3 @@
-<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
-
-Don't forget to hit the :star: if you like this repo.
-
 # HyperText Markup Language (HTML)
 HTML stands for HyperText Markup Language. It is a markup language used for creating web pages and other types of content that can be displayed in a web browser. HTML consists of a series of tags that are used to mark up the content of a web page, such as text, images, videos, and links. These tags allow web developers to structure and format web content, and to create hyperlinks between different pages and websites. HTML is one of the core technologies used to create the World Wide Web, and it is constantly evolving to meet the changing needs of web developers and users.
 
@@ -156,10 +147,3 @@ These tags are used to group elements together and apply styles or scripting to 
 <span class="highlight">This text is highlighted.</span>
 ```
 These are just some of the useful HTML tags along with examples. There are many more
-
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
-
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
-
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
