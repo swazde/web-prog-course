@@ -1,12 +1,3 @@
-<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
-
-Don't forget to hit the :star: if you like this repo.
-
 # HTML Projects
 HTML projects that can be done on one page:
 
@@ -41,10 +32,3 @@ Create a website to sell your products online, with sections for product listing
 Create a website for a nonprofit organization, with sections for mission, programs, events, and donation options.
 
 Remember to use proper HTML tags, CSS styles, and JavaScript code to create a professional-looking and functional website. Good luck with your project!
-
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
-
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
-
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
