@@ -1,12 +1,3 @@
-<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
-
-Don't forget to hit the :star: if you like this repo.
-
 # HTML: Exercise
 HTML exercises are a great way for beginners to learn and practice HTML coding skills. These exercises usually consist of small coding challenges that require the student to use different HTML tags and attributes to create simple web pages. Some examples of HTML exercises include creating a basic website layout, adding images and links, creating tables, and using forms to collect user input. By completing these exercises, students can develop their HTML skills, build their confidence, and prepare themselves for more complex web development projects. Many websites and online courses offer free HTML exercises for beginners to help them get started on their web development journey.
 
@@ -27,10 +18,3 @@ HTML exercises are a great way for beginners to learn and practice HTML coding s
 8. [HTML Exercises from **w3resource**](https://www.w3resource.com/html-exercises/) - w3resource offers a collection of HTML exercises with answers to help learners practice their HTML skills. The exercises cover basic HTML tags and attributes as well as more advanced topics like forms and tables.
 
 9. [HTML Exercises from **SoloLearn**](https://www.sololearn.com/Course/HTML/) - SoloLearn is a mobile app that offers interactive coding exercises for a variety of programming languages, including HTML. The exercises are designed to be completed on-the-go and include step-by-step instructions.
-
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
-
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
-
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
