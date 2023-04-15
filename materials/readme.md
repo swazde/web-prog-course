@@ -15,15 +15,5 @@ One of the key things that makes this book different from other titles that teac
 
 Alongside the code, there is plenty of practical advice on topics such as how to resize and prepare images for the web, how to control typography, and search engine optimization (SEO), so that you will be equipped with the full range of skills needed to create great looking websites.
 
-#### Source code: <a href="https://github.com/drshahizan/learn-php/tree/main/materials/html/html-and-css-book-code"><img src="../images/folder.png" width="48px" height="48px"></a>
+#### Source code: <a href="https://github.com/cwenghowe/web-prog-course/tree/main/materials/html/html-and-css-book-code"><img src="../images/folder.png" width="48px" height="48px"></a>
 
-## JavaScript and Jquery
-
-Are you new to JavaScript? Or have you added scripts to your web page but want a better idea of how they work? Then this book is for you.
-
-We'll not only show you how to read and write JavaScript, but we’ll also teach you the basics of computer programming in a simple, visual way.
-
-All you need is a basic understanding of HTML and CSS.
-
-
-#### Source code: <a href="https://github.com/drshahizan/learn-php/tree/main/materials/javascript/javascript-and-jquery-book-code"><img src="../images/folder.png" width="48px" height="48px"></a>
