@@ -1,11 +1,3 @@
-<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
-
-Don't forget to hit the :star: if you like this repo.
 # Learning CSS for a beginner
 Learning CSS as a beginner can be a fun and rewarding experience. As a beginner, it's important to start with the basics of CSS, including its syntax, selectors, properties, and values. This will help you understand how CSS works and how it's used to style web pages.
 
@@ -847,9 +839,4 @@ Using browser developer tools to debug your CSS can save you time and effort, as
 By following these best practices and tips, you can write more efficient, maintainable, and scalable CSS code.
 
 These topics cover the basics of CSS and provide a solid foundation for building responsive and visually appealing web pages. As a beginner, it's important to start with the fundamentals before moving on to more advanced topics.
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
 
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
-
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
