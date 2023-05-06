@@ -1,12 +1,3 @@
-<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
-
-Don't forget to hit the :star: if you like this repo.
-
 If you want to learn CSS, it's important to understand the fundamentals of the language, including its syntax, selectors, properties, and values. Here are some of the essential modules in CSS that you should focus on:
 
 1. **Selectors**: The selector is the part of the CSS code that targets the specific element or group of elements that you want to style. There are many different types of selectors in CSS, including class, ID, tag, attribute, and pseudo-class selectors.
@@ -22,11 +13,4 @@ If you want to learn CSS, it's important to understand the fundamentals of the l
 6. **Animations and Transitions**: CSS also provides a range of properties and values that allow you to create animations and transitions, adding interactivity and visual interest to your web pages.
 
 By focusing on these essential modules of CSS, you can gain a solid understanding of the language and start creating beautiful, responsive, and user-friendly web pages.
-
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
-
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
-
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
 
