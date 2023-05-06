@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <style>
+        table{
+            border: 1px solid;
+            
+        }
+        td{
+            border: 1px solid;
+        }
+        
+        #blue{
+            width: fit-content;
+            height: fit-content;
+            border: 1px solid blue;
+            margin: 0 auto;
+            
+
+        }
+        .grey{
+            text-align: left;
+            padding: 15px;
+            border: 1px solid grey;
+            width: fit-content;
+            height: fit-content;
+            margin: 15px;
+        }
+        .float{
+            background-color:white;
+            float: left;
+            position: absolute;
+            
+             
+        }
+        
+    </style>
+    <!--
+    Name: Azraei Hamiduddin Bin Abdul Aziz
+    Matric No: SX222146ECJHF03
+    GitHub ID : hamiduddin-aziz
+    Lab 9: HTML Forms
+    -->
+</head>
+<body>
+    <h1 style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; color: blue;">Medical Form</h1>
+    <div id="blue" >
+        <form action="process.php" >
+            
+            <div class="grey" style="width: 650px;">
+                <div class="float" style="top: 87px;" ;" >Personal Information</div>
+                <table >
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" name="First Name"></td>
+                        <td>Gender</td>
+                        <td>
+                            <label>
+                                <input type="radio" name="Gender" > Female
+                            </label>
+                            <label>
+                                <input type="radio" name="Gender" > Male 
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" Name = "Last Name"></td>
+                        <td>Nationality</td>
+                        <td><select name="Nationality">
+                            <option value="Canadian">Canadian</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td colspan="3"> <textarea name="Address" id="Address" rows="6" style="width: 56%;" ></textarea></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="grey" style="width: 650px;">
+                <div class="float" style=" top: 297px ; ">
+                    Medical History
+                </div>
+                <input type="checkbox" name="Smallpox" >Smallpox
+                <input type="checkbox" name="Mumps">Mumps
+                <input type="checkbox" name="Dizziness">Dizziness
+                <input type="checkbox" name="Sneezing">Sneezing
+            </div>
+            
+            <div class="grey" style="width: 800px;">
+                <div class="float" style=" top: 363px ;">
+                    Current Medication
+                </div>
+                Are you currently taking any medication? 
+                <label>
+                    <input type="radio" name="take medication">Yes
+                </label>
+                <label >
+                    <input type="radio" name="take medication">No
+                </label> <br>
+                If you are currently taking medication, please indicate it in the space below: <br>
+                <textarea name="" id="" cols="80" rows="10" style="margin: 1px;"></textarea>
+            </div>
+            <div style="margin: 15px;" >
+                <input type="submit" name="Submit">
+                <input type="reset" name = "Reset">
+            </div>
+        
+                
+                
+                
+            
+        </form>
+    </div>
+    
+    
+</body>
+</html>
