@@ -1,12 +1,3 @@
-<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
-
-Don't forget to hit the :star: if you like this repo.
-
 # Positioning
 CSS positioning is a layout technique that allows you to precisely control the position and placement of HTML elements on a web page. There are four different types of positioning in CSS: static, relative, absolute, and fixed. Here's an overview of each type:
 
@@ -104,12 +95,5 @@ In this example, we have a container element with a border, and four different b
 - Box 4 is positioned using fixed positioning, with a position of 20px from the top and right edges of the viewport.
 
 Overall, this example demonstrates how CSS positioning can be used to create precise and complex layouts on the web, by allowing you to control the position and placement of HTML elements with a high degree of precision.
-
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
-
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
-
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
 
 
