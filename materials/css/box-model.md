@@ -1,11 +1,3 @@
-<a href="https://github.com/drshahizan/learn-php/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/learn-php" alt="Stars Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/network/members"><img src="https://img.shields.io/github/forks/drshahizan/learn-php" alt="Forks Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-php" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-php" alt="Issues Badge"/></a>
-<a href="https://github.com/drshahizan/learn-php/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-php?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-php)
-
-Don't forget to hit the :star: if you like this repo.
 # CSS Box Model 
 
 The CSS Box Model is a fundamental concept in CSS that defines the layout and sizing of HTML elements on a web page. The box model consists of four layers: content, padding, border, and margin, which together determine the total size of an element.
@@ -160,11 +152,4 @@ For `box 3`, we've added a `border` of 5px that is solid and black, and a margin
 For `box 4`, we've set a `background-color` of `lightblue`, and added a `background-image` of example-image.jpg, which is a background image file that is located in the same directory as the HTML file. We've also set the background-size property to cover to ensure that the image fills the content layer of the element.
 
 By adjusting the values of the `padding`, `border`, and `margin` properties, we can control the layout and spacing of the div elements and create various visual effects using the CSS Box Model.
-
-## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/learn-php/issues) for any improvements, suggestions or errors in the content.
-
-You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
-
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
 
