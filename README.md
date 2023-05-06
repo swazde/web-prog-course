@@ -1,3 +1,4 @@
 # Materials and Labs
-Contents:
-- 
+
+## Lab Submission Status
+
