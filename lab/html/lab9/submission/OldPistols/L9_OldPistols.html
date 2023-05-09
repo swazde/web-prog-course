@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Medical Form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+     Name: Taufik Bin Ahmad
+     Matric No: SX211666ECJHF03
+     Github id: OldPistols
+
+     Lab 9: HTML Forms
+    -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1><b>Medical Form</b></h1>
+    <div id="blueLine">
+        <form action="process.php">
+
+            <div class="greyLine" style="width: 650px;">
+            <div class="txtBetweenLine" style="top: 89px;">Personal Information</div>
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td>
+                        <input class="txtInput" type="text" name="FirstName">
+                    </td>
+                    <td>Gender</td>
+                    <td>
+                        <label><input type="radio" name="Female">Female</label>
+                        <label><input type="radio" name="Male">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td>
+                        <input class="txtInput" type="text" name="LastName">
+                    </td>
+                    <td>Nationality</td>
+                    <td>
+                        <select name="Country">
+                        <option value="Canadian">Canadian</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Japan">Japan</option>
+                        <option value="China">China</option>
+                        <option value="Brunei">Brunei</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td colspan="3"><textarea name="Address" id="Address" rows="6" style="width: 56%;"></textarea></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="greyLine" style="width: 650px;">
+            <div class="txtBetweenLine" style="top: 300px;">Medical History</div>
+            <input type="checkbox" name="Smallpox">Smallpox
+            <input type="checkbox" name="Mumps">Mumps
+            <input type="checkbox" name="Dizziness">Dizziness
+            <input type="checkbox" name="Sneezing">Sneezing
+        </div>
+
+        <div class="greyLine" style="width: 650px;">
+            <div class="txtBetweenLine" style="top: 367px;">Current Medication</div>
+            Are you currently taking any medication?
+            <label>
+                <input type="radio" name="take medication">Yes
+            </label>
+            <label>
+                <input type="radio" name="don't take medication">No
+            </label><br>
+            If you are currently taking medication, please indicate it in the space below:
+            <textarea name="" id="" cols="80" rows="10" style="margin: 1px;"></textarea>
+        </div>
+        <div style="margin: 15px;">
+            <input type="submit" name="Submit">
+            <input type="reset" name="Reset">
+        </div>
+        </form> 
+    </div>
+</body>
+</html>
