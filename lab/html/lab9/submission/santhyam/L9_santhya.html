@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <!--
+     Name: SANTHYA MUNIAPPAN
+     Matric No: SX220761ECJHS03
+     Github id : SanthyaM
+     Lab 9: HTML Forms
+    -->
+
+    <style>
+        table{
+            border: 1px solid;
+            
+            
+        }
+        td{
+            border: 1px solid;
+            
+        }
+        
+        #black{
+            width: 1000px;
+            height: 600px;
+            border: 2px solid black;
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+         }
+         
+        .black{
+            text-align: left;
+            padding: 15px;
+            border: 1px solid black;
+            width: fit-content;
+            height: fit-content;
+            margin: 15px;
+        }
+
+        .float{
+            background-color:white;
+            float: left;
+            position: absolute;
+               
+        }
+        
+    </style>
+   
+</head>
+
+<body>
+    <h1 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif; color: blue;">Medical Form</h1>
+    
+    <div id="black">
+
+        <form action="process.php" >
+            
+            <div class="black" style="width: 700px;">
+                <div class="float" style="top: 90px;" ;>Personal Information</div>
+
+                <table >
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" name="First Name"></td>
+                        <td>Gender</td>
+                        <td>
+                            <label>
+                                <input type="radio" name="Gender" >Female
+                            </label>
+                            <label>
+                                <input type="radio" name="Gender" > Male 
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" Name = "Last Name"></td>
+                        <td>Nationality</td>
+                        <td><select name="Nationality">
+                            <option value="Canadian">Canadian</option>
+                            <option value="Malaysian">Malaysian</option>
+                            <option value="Indonesian">Indonesian</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td colspan="3"> <textarea name="Address" id="Address" rows="6" style="width: 70%;" ></textarea></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="black" style="width: 700px;">
+                <div class="float" style=" top: 300px ; ">
+                    Medical History
+                </div>
+                <input type="checkbox" name="Smallpox" >Smallpox
+                <input type="checkbox" name="Mumps">Mumps
+                <input type="checkbox" name="Dizziness">Dizziness
+                <input type="checkbox" name="Sneezing">Sneezing
+            </div>
+            
+            <div class="black" style="width: 800px;">
+                <div class="float" style=" top: 370px ;">
+                    Current Medication
+                </div>
+                Are you currently taking any medication? 
+                <label>
+                    <input type="radio" name="take medication">Yes
+                </label>
+                <label >
+                    <input type="radio" name="take medication">No
+                </label> <br>
+                If you are currently taking medication, please indicate it in the space below: <br>
+                <textarea name="" id="" cols="80" rows="10" style="margin: 1px;"></textarea>
+            </div>
+            <div style="margin: 15px;" >
+                <input type="submit" name="Submit">
+                <input type="reset" name = "Reset">
+            </div>
+        
+
+
+
+
+
+
+
+
+</body>
+</html>
