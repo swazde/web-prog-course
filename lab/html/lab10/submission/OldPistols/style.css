@@ -1,0 +1,32 @@
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.greyLine{
+    text-align: left;
+    padding: 15px;
+    border: 1px gray solid;
+    width: fit-content;
+    height: fit-content;
+    margin: 15px;
+}
+
+.textBetweenLine{
+    float: left;
+    position: absolute;
+    background-color: white;
+}
+
+.txtInput{
+    width: 50%;
+    height: 30%;
+    padding: 1;
+    margin: 1;
+    border: 1;
+}
+
+table{
+    width: 100%;
+}
+
