@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <!--
+     Name: Taufik Bin Ahmad
+     Matric No: SX211666ECJHF03
+     Github id: OldPistols
+
+     Assignment 1: Calculator
+    -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="input" placeholder="0">
+      <div class="buttons">
+        <button onclick="clearInput()" style="background-color: orange;">C</button>
+        <button onclick="backspace()" style="background-color: red;">&larr;</button>
+        <button onclick="addToInput('/')">/</button>
+        <button onclick="addToInput('*')">*</button>
+        <button onclick="addToInput('7')">7</button>
+        <button onclick="addToInput('8')">8</button>
+        <button onclick="addToInput('9')">9</button>
+        <button onclick="addToInput('-')">-</button>
+        <button onclick="addToInput('4')">4</button>
+        <button onclick="addToInput('5')">5</button>
+        <button onclick="addToInput('6')">6</button>
+        <button onclick="addToInput('+')">+</button>
+        <button onclick="addToInput('1')">1</button>
+        <button onclick="addToInput('2')">2</button>
+        <button onclick="addToInput('3')">3</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="addToInput('0')">0</button>
+        <button onclick="addToInput('.')">.</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
