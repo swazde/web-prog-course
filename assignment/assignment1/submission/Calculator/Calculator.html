@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator Layout Using CSS Grid</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" id="display" name="display"  disabled>
+                </div>
+                <div class="grid-container">
+                    <button id="btn-AC" class="btn-num">AC</button>
+                    <button id="btn-DE" class="btn-num"  >DE</button>
+                    <button id="btn-sqrt" class="btn-operator" value="sqrt">&radic;</button>
+                    <button id="btn-/" class="btn-num" value="/" >&div;</button>
+                    <button id="btn-7" class="btn-num" value="7">7</button>
+                    <button id="btn-8" class="btn-num" value="8">8</button>
+                    <button id="btn-9" class="btn-num" value="9">9</button>
+                    <button id="btn-*" class="btn-num" value="*">&times;</button>
+                    <button id="btn-4" class="btn-num" value="4">4</button>
+                    <button id="btn-5" class="btn-num" value="5">5</button>
+                    <button id="btn-6" class="btn-num" value="6">6</button>
+                    <button id="btn--" class="btn-num" value="-" >&minus;</button>
+                    <button id="btn-1" class="btn-num" value="1">1</button>
+                    <button id="btn-2" class="btn-num" value="2">2</button>
+                    <button id="btn-3" class="btn-num" value="3">3</button>
+                    <button id="btn-+" class="btn-num" value="+">&plus;</button>
+                    <button id="btn-0" class="btn-num" value="0">0</button>
+                    <button id="btn-dot" class="btn-num" value=".">.</button>
+                    <button id="equal" class="btn-operator" value="=">=</button>
+                </div>
+            </form> 
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
