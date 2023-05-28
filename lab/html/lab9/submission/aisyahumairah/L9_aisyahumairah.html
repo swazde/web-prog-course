@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 9</title>
+
+    <!--
+        Name: Aisyah Umairah Binti Azmir
+        Matrix No: SX222133ECJHF03
+        Github id: aisyahumairah
+
+        Lab 9: HTML Forms
+    -->
+
+    <style>
+        table, th, td {
+          border:1px solid black;
+          width: 20%;
+          height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <p>Personal Information</p>
+    <form>
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="firstname"></td>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="male">
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lastname"></td>
+                <td>Nationality</td>
+                <td>
+                    <select name="nationality">
+                        <option value="Canadian">Canadian</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Japan">Japan</option>
+                        <option value="China">China</option>
+                        <option value="Brunei">Brunei</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td colspan="3"><textarea></textarea></td>
+            </tr>
+        </table>
+        <p></p>
+
+        <label>Medical History</label><br>
+        <input type="checkbox" name="medical" value="smallpox">
+        <label for="vehicle1"> Smallpox</label>
+
+        <input type="checkbox" name="medical" value="mumps">
+        <label for="vehicle1"> Mumps</label>
+
+        <input type="checkbox" name="medical" value="dizziness">
+        <label for="vehicle1"> Dizziness</label>
+
+        <input type="checkbox" name="medical" value="sneezing">
+        <label for="vehicle1"> Sneezing</label>
+
+        <p></p>
+
+        <label>Current Medication</label><br>
+
+        <label>Are you currently taking any medication?</label>
+        <input type="radio" name="medic" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="medic" value="no">
+        <label for="no">No</label>
+
+        <p></p>
+        
+        <label>If you currently taking medication, please indicate it in the space below:</label><br>
+        <textarea></textarea>
+
+        <p></p>
+        <input type="submit" name="Submit">
+        <input type="reset" name="Reset">
+    </form>
+</body>
+</html>
