@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 9</title>
+
+    <!--
+        Name: Aisyah Umairah Binti Azmir
+        Matrix No: SX222133ECJHF03
+        Github id: aisyahumairah
+
+        Lab 9: HTML Forms
+    -->
+
+    <style>
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: blue;
+            text-align: center;
+        }
+
+        table {
+            border: 1px solid;
+        }
+
+        td {
+            border: 1px solid;
+        }
+
+        .txtInput {
+            width: 95%;
+            height: 70%;
+            padding: 1;
+            margin: 1;
+            border: 1;
+        }
+
+        .txtBetweenLine {
+            background-color: white;
+            float: left;
+            position: absolute;
+        }
+
+        #blueLine {
+            width: fit-content;
+            height: fit-content;
+            border: 1px blue solid;
+            margin: 0 auto;
+        }
+
+        .greyLine {
+            text-align: left;
+            padding: 15px;
+            border: 1px gray solid;
+            width: fit-content;
+            height: fit-content;
+            margin: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b>Medical Form</b></h1>
+    <div id="blueLine">
+
+        <form>
+            <div class="greyLine" style="width: 650px;">
+                <div class="txtBetweenLine" style="top: 89px;">Personal Information</div>
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" name="firstname"></td>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender" value="female">
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" value="male">
+                            <label for="male">Male</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" name="lastname"></td>
+                        <td>Nationality</td>
+                        <td>
+                            <select name="nationality">
+                                <option value="Canadian">Canadian</option>
+                                <option value="Malaysia">Malaysia</option>
+                                <option value="Japan">India</option>
+                                <option value="China">China</option>
+                                <option value="Brunei">United States</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td colspan="3"><textarea name="Address" id="Address" rows="6" style="width: 56%;"></textarea>
+                        </td>
+                </table>
+            </div>
+            <p></p>
+
+            <div class="greyLine" style="width: 650px;">
+                <div class="txtBetweenLine" style="top: 300px;">Medical History</div>
+                <input type="checkbox" name="medical" value="smallpox">Smallpox
+
+                <input type="checkbox" name="medical" value="mumps">Mumps
+
+                <input type="checkbox" name="medical" value="dizziness">Dizziness
+
+                <input type="checkbox" name="medical" value="sneezing">Sneezing
+            </div>
+            <p></p>
+
+            <div class="greyLine" style="width: 650px;">
+                <div class="txtBetweenLine" style="top: 367px;">Current Medication</div>
+
+                <label>Are you currently taking any medication?</label>
+                <input type="radio" name="medic" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" name="medic" value="no">
+                <label for="no">No</label><br>
+
+                <label>If you currently taking medication, please indicate it in the space below:</label><br>
+                <textarea name="" id="" cols="80" rows="10" style="margin: 1px;"></textarea>
+            </div>
+
+            <div style="margin: 15px;">
+                <input type="submit" name="Submit">
+                <input type="reset" name="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
