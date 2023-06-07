@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mock 2</title>
+    <!--
+Lab 13: Layout (Mock & Style)
+Group:
+1. Name: Muhammad Farhan Bin Mohd Izhar, Matrix No: SX212313ECJHF03, Github ID: swazde
+2. Name: Muhammad Syafiq bin Mohd Zafri, Matrix No: SX211667ECJHF03, Github ID: SyafiqZafri
+3. Name: Muhammad Hizwan Bin Zameri, Matrix No: SX211682ECJHF03, Github ID: hizwanzameri
+-->
+    <style type="text/css">
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 200px auto;
+        grid-gap: 20px;
+        height: 100vh;
+        padding: 10px;
+      }
+      .header {
+        grid-row: 1/1;
+        grid-column: 1/4;
+        background-color: purple;
+        padding: 20px;
+      }
+      .col {
+        padding: 20px;
+      }
+      .col1 {
+        background-color: lightcoral;
+      }
+      .col2 {
+        background-color: lightgreen;
+      }
+      .col3 {
+        background-color: lightsalmon;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="header"></div>
+      <div class="col col1"></div>
+      <div class="col col2"></div>
+      <div class="col col3"></div>
+    </div>
+  </body>
+</html>
