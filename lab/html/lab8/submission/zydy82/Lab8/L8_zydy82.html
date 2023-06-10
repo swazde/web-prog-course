@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table, tr, td {
+            border: 2px solid black; 
+            border-collapse: collapse;
+            width: 50%;
+            white-space: nowrap;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;   
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        caption {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+    </style>
+    <!--
+    Name:Zaidi bin Ahmad
+    Matrix No:SX222136ECJHF03
+    Github id:zydy82
+    Lab 8: Table
+    -->
+</head>
+<body>
+    <table>
+        <caption>Web Programming: Table</caption>
+        <tr>
+            <td rowspan="2" style="vertical-align: top; white-space: inherit;">No</td>
+            <td rowspan="2">Services <br> Provided</td>
+            <td rowspan="2" style="vertical-align: bottom;">Qty</td>
+            <td colspan="2" style="text-align: end;">Service <br> Period</td>
+            <td colspan="4">Service Performance Details</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">From</td>
+            <td style="vertical-align: bottom;">To</td>
+            <td style="vertical-align: top;">S. <br> No</td>
+            <td>ID <br> No</td>
+            <td style="text-align: right;">Gap in Service <br> (in days)</td>
+            <td>Overall Performance Remarks (Satisfactory / un-satisfactory)</td>
+        </tr>
+        <tr>
+            <td rowspan="3">1</td>
+            <td rowspan="3"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
