@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Programming: Application Form</title>
+    <style>
+        table, tr, td {
+            width: 100%;
+            margin-left: auto;
+            margin-left: auto;
+            white-space: nowrap;
+        }
+
+        fieldset {
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <!--
+    Name:Zaidi bin Ahmad
+    Matrix No:SX222136ECJHF03
+    Github id:zydy82
+    Lab 10: Application Form
+    -->
+</head>
+<body>
+    <h1 style="text-align: center;">Web Programming: Application Form</h1><br>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <table>
+                <tr>
+                    <td style="width: 15%;"><label for="Name">Name</label></td>
+                    <td style="width: 25%;" colspan="3">
+                        <select name="Name" id="Name">
+                            <span>
+                                <option value="Select">--Select--</option>
+                                <option value="Select">--Select--</option>
+                                <input type="text">
+                            </span>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%;"><label for="Gender">Gender</label></td>
+                    <td style="width: 55%;">
+                        <span>
+                            <label for="Male">Male</label>
+                            <input type="radio" id="Male" name="Gender">
+                            <label for="Male">Female</label>
+                            <input type="radio" id="Female" name="Gender">
+                        </span>
+                    </td>
+                    <td style="width: 25%;">
+                        <label for="Date">Date of Birth</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="date" name="Date" id="Date">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 15%;">
+                        <label for="Status">Marital Status</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <select name="Status" id="Status">
+                            <option value="Select">--Select--</option>
+                            <option value="Select">--Select--</option>
+                        </select>
+                    </td>
+                    <td style="width: 25%;">
+                        <label for="Religion">Religion</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <select name="Religion" id="Religion">
+                            <option value="Select">--Select--</option>
+                            <option value="Select">--Select--</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset><br>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <table>
+                <tr>
+                    <td style="width: 25%;">
+                        <label for="Phone">Phone</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="text">
+                    </td>
+                    <td style="width: 25%;">
+                        <label for="E-mail">E-mail</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%;">
+                        <label for="Address">Address Line 1</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="text">
+                    </td>
+                    <td style="width: 25%;">
+                        <label for="Address">Address Line 2</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="area">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%;">
+                        <label for="City">City</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="text">
+                    </td>
+                    <td style="width: 25%;">
+                        <label for="State">State</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <select name="State" id="State">
+                            <option value="Select">--Select--</option>
+                            <option value="Select">--Select--</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset><br>
+        <fieldset>
+            <legend>Qualification Details</legend>
+            <table>
+                <tr>
+                    <td style="width: 5%;">No.</td>
+                    <td style="width: 15%;">Qualification</td>
+                    <td style="width: 50%;">University</td>
+                    <td style="width: 15%;">Passing Year</td>
+                    <td style="width: 15%;">CGPA</td>
+                </tr>
+                <tr>
+                    <td style="width: 5%;">1.</td>
+                    <td style="width: 15%;">
+                        <select name="Qualification" id="Qualification">
+                            <option value="Select">--Select--</option>
+                            <option value="Select">--Select--</option>
+                        </select>
+                        
+                    </td>
+                    <td style="width: 50%;">
+                        <input type="text" size="30">
+                    </td>
+                    <td style="width: 15%;">
+                        <input type="text" size="3">
+                    </td>
+                    <td style="width: 15%;">
+                        <input type="text" size="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 5%;">2.</td>
+                    <td style="width: 15%;">
+                        <select name="Qualification" id="Qualification">
+                            <option value="Select">--Select--</option>
+                            <option value="Select">--Select--</option>
+                        </select>
+                        
+                    </td>
+                    <td style="width: 50%;">
+                        <input type="text" size="30">
+                    </td>
+                    <td style="width: 15%;">
+                        <input type="text" size="3">
+                    </td>
+                    <td style="width: 15%;">
+                        <input type="text" size="3">
+                    </td>
+                </tr>
+            </table>
+        </fieldset><br>
+        <fieldset>
+            <legend>Language Knowledge</legend>
+            <table>
+                <tr>
+                    <td style="width: 25%;"><label for="">Language</label></td>
+                    <td style="width: 25%;"><label for="">Reading</label></td>
+                    <td style="width: 25%;"><label for="">Writing</label></td>
+                    <td style="width: 25%;"><label for="">Speaking</label></td>
+                </tr>
+                <tr>
+                    <td style="width: 25%;">
+                        <label for="">B. Melayu</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="checkbox">
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="checkbox">
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%;">
+                        <label for="">English</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="checkbox">
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="checkbox">
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="checkbox">
+                    </td>
+                </tr>
+            </table>
+        </fieldset><br>
+        <fieldset>
+            <legend>Identification Details</legend>
+            <table>
+                <tr>
+                    <td style="width: 25%;">
+                        <label for="Identity Card">Identity Card Number</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="text" name="" id="">
+                    </td>
+                    <td style="width: 25%;">
+                        <label for="Passport Number">Passport Number</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 25%;">
+                        <label for="Upload Photo">Upload Photo</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="file">
+                        <label for="No file chosen"></label>
+                    </td>
+                    <td style="width: 25%;">
+                        <label for="Upload Signature">Upload Signature</label>
+                    </td>
+                    <td style="width: 25%;">
+                        <input type="file">
+                    </td>
+                </tr>
+            </table>
+        </fieldset><br>
+            <center>
+                <button type="submit" form="form1" value="Submit">Submit</button>
+                <button onclick="history.back()">Back</button>
+            </center>
+    </form>
+</body>
+</html>
