@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+            text-align: center;
+        }
+        .beautiful {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+            height: 140px;
+            table-layout: fixed;
+            text-align: center;
+        }
+    </style>
+    <!--
+    Name:Zaidi bin Ahmad
+    Matrix No:SX222136ECJHF03
+    Github id:zydy82
+    Lab 6: HTML Table
+    -->
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Flight No</th>
+            <th>Place</th>
+            <th>Destination</th>
+            <th colspan="2">Time</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Arrival</td>
+            <td>Depature</td>
+        </tr>
+    </table><br>
+
+    <table>
+        <tr>
+            <th rowspan="2">Time</th>
+            <th>Johor Bahru</th>
+            <th>Jakarta</th>
+            <th>Dhaka</th>
+            <th>Jeddah</th>
+        </tr>
+        <tr>
+            <td>3.30pm</td>
+            <td>2.30pm</td>
+            <td>1.30pm</td>
+            <td>10.30am</td>
+        </tr>
+    </table><br>
+
+    <table class="beautiful">
+        <tr>
+            <th colspan="3" style="background-color: blue;">BLUE</th>
+        </tr>
+        <tr>
+            <td style="background-color: red;">RED</td>
+            <td style="background-color: green;">GREEN</td>
+            <td style="background-color: yellow;">YELLOW</td>
+        </tr>
+    </table><br>
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td rowspan="2" colspan="2" style="font-weight: bold;">Image</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
