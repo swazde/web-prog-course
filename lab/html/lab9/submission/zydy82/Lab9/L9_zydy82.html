@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <style>
+        table, tr, td {
+            border: 2px solid black;
+            width: 100%;
+            table-layout: fixed;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        fieldset {
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <!--
+    Name:Zaidi bin Ahmad
+    Matrix No:SX222136ECJHF03
+    Github id:zydy82
+    Lab 9: HTML Forms
+    -->
+</head>
+<body>
+    <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: bold; text-align: center;color: blue;">Medical Form</h1>
+    <fieldset>
+<legend>Personal Information</legend>
+<form action="">
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" size="38"></td>
+            <td>Gender</td>
+            <td>
+                <span><input type="radio" name="gender" value="Female">Female</span>
+                <span><input type="radio" name="gender" value="Male">Male</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" size="38"></td>
+            <td>Nationality</td>
+            <td>
+                <select name="Nationality" id="Nationality">
+                    <option value="Canadian">Canadian</option>
+                    <option value="Malaysian">Malaysian</option>
+                    <option value="Korean">Korean</option>
+                    <option value="Japan">Japan</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td colspan="3">
+                <textarea name="Address" id="Address" cols="30" rows="10" style="width: 50%;"></textarea>
+            </td>
+        </tr>
+    </table>
+    <fieldset>
+        <legend>Medical History</legend>
+        <span><input type="checkbox" name="medical history 1" value="Smallpox">Smallpox</span>
+        <span><input type="checkbox" name="medical history" value="Mumps">Mumps</span>
+        <span><input type="checkbox" name="medical history" value="Dizziness">Dizziness</span>
+        <span><input type="checkbox" name="medical history" value="Sneezing">Sneezing</span>
+    </fieldset>
+    <fieldset>
+        <legend>Current Medication</legend>
+        <span>
+            <p> 
+                Are you currently taking any medication?
+                <input type="radio" name="Medication" value="Yes"><label for="Yes">Yes</label>
+                <input type="radio" name="Medication" value="No"><label for="No">No</label>
+            </p>
+        </span>
+        <p>If you are currently taking medication, please indicate it in the space below:</p>
+        <textarea name="Information" id="" cols="30" rows="10" style="width: 100%;"></textarea>
+    </fieldset><br>
+    <input type="submit" value="Submit">
+    <input type="reset">
+</form>
+    </fieldset>
+</body>
+</html>
