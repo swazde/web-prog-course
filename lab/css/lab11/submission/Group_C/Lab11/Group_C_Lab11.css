@@ -1,0 +1,39 @@
+.paragraph_1 {
+    font-size: 24pt;
+    display: inline;
+}
+
+.paragraph_2 {
+    display: inline;
+}
+
+.paragraph_3 {
+    display: inline;
+}
+
+b {
+    color: orange;
+}
+
+em {
+    text-decoration: underline;
+}
+
+h6 {
+    display: inline;
+    color: green;
+    position: relative;
+    min-width: fit-content;
+}
+
+body {
+    display: flexbox;
+}
+
+div {
+    font-family: fantasy;
+}
+
+.container_1 {
+    font-size: 24pt;
+}
