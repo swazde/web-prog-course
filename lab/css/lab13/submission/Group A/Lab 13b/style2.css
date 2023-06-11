@@ -1,0 +1,91 @@
+/*
+Lab 13: Layout (Mock & Style)
+Group: A
+1. Namw: Taufik Bin Ahmad, Matrix No: SX211666ECJHF03, Github ID: OldPistols
+2. Name: Muhammad Syafiq Abdul Hamid, Matrix No: SX212189ECJHF03, Github ID: syafiq0910
+3. Name: Muhammad Aizat Bin Abdul Rashid, Matrix No: SX220320ECJHS03, Github ID: Aezatexpada
+4. Name: Mohamed Syaharulnizam Bin Vps Bathusha Hamid, Matrix No: SX211671ECJHF03, Github ID: Syahthegreat
+*/
+/* base colors */
+header {
+    background-color: #f94144;
+  }
+  
+  nav {
+    background-color: #f3722c;
+  }
+  
+  aside {
+    background-color: #f9c74f;
+  }
+  
+  section {
+    background-color: #90be6d;
+  }
+  
+  section article {
+    background-color: #4d908e;
+  }
+  
+  footer {
+    color: white;
+    background-color: #264653;
+  }
+  
+  /* base block layout */
+  body {
+    width: 50em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+      "header header"
+      "nav nav"
+      "main aside"
+      "footer footer";
+  }
+  
+  body > * {
+    padding: 1em;
+  }
+  
+  header {
+    grid-area: header; 
+  }
+  
+  nav {
+    grid-area: nav;
+  }
+  
+  main {
+    padding: 0;
+    width: 550px;
+    grid-area: main;
+  }
+  
+  aside {
+    padding: 1em;
+    width: 300px;
+    grid-area: aside;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
+  
+  main > * {
+    padding: 1em;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  main section article {
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+    width: 100px;
+  }
+  
