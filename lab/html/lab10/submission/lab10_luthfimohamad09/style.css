@@ -1,0 +1,26 @@
+.blackline {
+    text-align: left;
+    padding: 10px;
+    border: 1px rgb(36, 35, 35) solid;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+}
+
+.textLine {
+    float: left;
+    position: absolute;
+    background-color: white;
+}
+
+.txtInput {
+    width: 50%;
+    height: 30%;
+    padding: 1;
+    margin: 1;
+    border: 1;
+}
+
+table {
+    width: 100%;
+}
