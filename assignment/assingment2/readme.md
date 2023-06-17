@@ -11,14 +11,14 @@ In this group assignment, students will need to develop a functional data-centri
    3. User verification capabilities (including login of users, etc)
    4. Varied User Access / Level capabilities
 6. Bonus merits will be given for successful implementation of:
-   a. use of cookie
-   b. any added function e.g. input validation using JS
-   c. clean, consistent and attractive presentation.
+   1. use of cookie
+   2. any added function e.g. input validation using JS
+   3. clean, consistent and attractive presentation.
 
 #### Deliverables:
 1. Report that explains:
-   a. Overview of the system
-   b. System modules available in the system
-   c. Functionalities of the modules
-   d. Database design (in ERD)
+   1. Overview of the system
+   2. System modules available in the system
+   3. Functionalities of the modules
+   4. Database design (in ERD)
 3. Source code.
