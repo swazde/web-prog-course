@@ -1,5 +1,5 @@
 ### Assignment 2 (PHP)
-#### Data-centric Online System
+#### 💻 Data-centric Online System
 In this group assignment, students will need to develop a functional data-centric online system. The minimum requirements for the implemented system must satisfiy the points below:
 1. The developed system must be functional
 2. The developed system must be data-centric (connected to a database)
@@ -15,7 +15,7 @@ In this group assignment, students will need to develop a functional data-centri
    2. any added function e.g. input validation using JS
    3. clean, consistent and attractive presentation.
 
-#### Deliverables:
+#### 🎯 Deliverables:
 1. Report that explains:
    1. Overview of the system
    2. System modules available in the system
