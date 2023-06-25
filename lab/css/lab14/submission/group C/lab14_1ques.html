@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--
+    Lab 14: Website Layout
+    Group:C
+    1. Name: [Mohamad Shahirul Amin Bin Mohamed Jaffar], Matrix No: [SX220876ECJHS03], Github ID: [shahirul22]
+    2. Name: [Aisyah Umairah Binti Azmir], Matrix No: [SX222133ECJHF03], Github ID: [aisyahumairah]
+    3. Name: [Nur Aliaa Binti Mohd Arif], Matrix No: [Matrix Number], Github ID: [alizan00]
+    4. Name: [Zaidi Bin Ahmad], Matrix No: [SX222136ECJHF03], Github ID: [zydy82]
+    -->
+
   <title>Layout Task</title>
   <style>
     body {
@@ -22,42 +31,32 @@
       font-size: 200%;
       padding: 50px 20px;
       margin: 0 auto;
-      max-width: 980px;
+      max-width: 1800px;
     }
 
-    /* Create three unequal columns that floats next to each other */
-    .column {
-      float: left;
-      padding: 10px;
-    }
-
-    /* Left and right column */
-    .column.side {
-      width: 25%;
-    }
-
-    /* Middle column */
-    .column.middle {
-      width: 75%;
-    }
-
-    /* Clear floats after the columns */
-    .row::after {
-      content: "";
-      display: table;
-      clear: both;
+    .grid {
+      margin: 0 auto;
+      padding: 0 20px;
+      max-width: 1800px;
+      display: grid;
+      grid-template-columns: 1fr 200px;
+      grid-gap: 20px;
     }
 
     nav {
       background-color: #000;
       padding: 0.5em;
-      /* position: fixed; */
+      position: sticky;
+      top: 0;
+      z-index: 1;
     }
 
     nav ul {
       margin: 0;
       padding: 0;
       list-style: none;
+      display: flex;
+      justify-content: space-between;
     }
 
     nav a {
@@ -66,38 +65,32 @@
       padding: 0.5em 1em;
     }
 
-    .photos {
-      list-style: none;
-      margin: 0;
-      padding: 0;
+    nav a:hover {
+      border-bottom: 2px solid #fff;
+    }
+
+    article {
+      width: 100%;
+      text-align: wrap;
     }
 
     .feature {
       width: 200px;
-    }
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-
-    }
-
-    li {
+      margin: 0 20px 20px 0;
       float: left;
     }
 
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
+    aside {
+      width: 100%;
     }
 
-    li a:hover {
-      background-color: grey;
+    .photos {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1px;
     }
   </style>
 </head>

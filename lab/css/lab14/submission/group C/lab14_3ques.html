@@ -5,14 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     
+    <!--
+    Lab 14: Website Layout
+    Group:C
+    1. Name: [Mohamad Shahirul Amin Bin Mohamed Jaffar], Matrix No: [SX220876ECJHS03], Github ID: [shahirul22]
+    2. Name: [Aisyah Umairah Binti Azmir], Matrix No: [SX222133ECJHF03], Github ID: [aisyahumairah]
+    3. Name: [Nur Aliaa Binti Mohd Arif], Matrix No: [Matrix Number], Github ID: [alizan00]
+    4. Name: [Zaidi Bin Ahmad], Matrix No: [SX222136ECJHF03], Github ID: [zydy82]
+    -->
+
+    <style>
+      /* Global Styles */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Header Styles */
+      header {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: orange;
+        text-align: center;
+        z-index: 2;
+        font-size: x-large;
+      }
+
+      /* Showcase Styles */
+      .feature {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 1;
+      }
+
+      /* Section Styles */
+      section {
+        padding: 40px;
+      }
+
+      /* Section A Styles */
+      #section-a {
+        background-color: lightseagreen;
+        color: yellow;
+        text-align: center;
+        font-size: larger;
+      }
+
+      /* Section B Styles */
+      #section-b {
+        background-color: blue;
+        color: orange;
+        text-align: center;
+        font-size: larger;
+      }
+
+      /* Section C Styles */
+      #section-c {
+        display: flex;
+        justify-content: space-between;
+        padding: 1px;
+      }
+
+      .box-1{
+    
+        padding: 20px;
+        background-color: rgba(8,240,158,255);
+        margin-bottom: 20px;
+        color: magenta;
+        width: fit-content;
+        font-size: larger;
+
+
+      }
+      .box-2{
+        
+        padding: 20px;
+        background-color: rgb(223, 76, 65);
+        margin-bottom: 20px;
+        color: yellow;
+        width: fit-content;
+        font-size: larger;
+      }
+      .box-3 {
+       
+        padding: 20px;
+        background-color: rgba(8,240,158,255);
+        margin-bottom: 20px;
+        color: magenta;
+        width: fit-content;
+        font-size: larger;
+      }
+
+    
+
+      /* Button Styles */
+      .button {
+        display: inline-block;
+        color: greenyellow;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 10px;
+        border: red solid 1px;
+      }
+    </style>
+
     <title>Fullscreen Landing</title>
   </head>
 
   <body>
+    <img src="images/mal4.jpeg" alt="placeholder" class="feature" />
     <header id="showcase">
       <h1>Welcome to Universiti Teknologi Malaysia</h1>
       <p>This year, we celebrate 50 years of prospering lives</p>
-      <a href="#" class="button">Read More</a>
+      <a href="#section-a" class="button">Read More</a>
     </header>
     <section id="section-a">
       <p>
