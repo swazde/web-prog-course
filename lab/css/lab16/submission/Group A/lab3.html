@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Lab 16: Form Layout
+Group: A
+1. Namw: Taufik Bin Ahmad, Matrix No: SX211666ECJHF03, Github ID: OldPistols
+2. Name: Muhammad Syafiq Abdul Hamid, Matrix No: SX212189ECJHF03, Github ID: syafiq0910
+3. Name: Muhammad Aizat Bin Abdul Rashid, Matrix No: SX220320ECJHS03, Github ID: Aezatexpada
+4. Name: Mohamed Syaharulnizam Bin Vps Bathusha Hamid, Matrix No: SX211671ECJHF03, Github ID: Syahthegreat
+-->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    body {
+      background-color: rgb(20, 236, 188);
+      background-image:
+        linear-gradient(to top,
+          rgb(20, 236, 188), rgb(192, 228, 220));
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .login-box {
+      width: 300px;
+      padding: 40px;
+      background-color: rgb(72, 116, 108);
+      box-shadow: 0 0 20px rgb(0, 0, 0);
+      border-radius: 5px;
+    }
+
+    .login-box h2 {
+      margin: 0 0 20px;
+      padding: 0;
+      font-size: 24px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .user-box {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .user-box input {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #fff;
+      border: none;
+      border-bottom: 1px solid #fff;
+      outline: none;
+      background: transparent;
+    }
+
+    .user-box label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #fff;
+      pointer-events: none;
+      transition: 0.5s;
+    }
+
+    .user-box input:focus~label,
+    .user-box input:valid~label {
+      top: -20px;
+      left: 0;
+      color: rgb(8, 236, 244);
+      font-size: 12px;
+    }
+
+    a {
+      display: inline-block;
+      position: relative;
+      padding: 10px 20px;
+      color: rgb(7,227,233);
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+      overflow: hidden;
+      transition: 0.5s;
+      margin-top: 20px;
+      border-radius: 7px;
+      letter-spacing: 5px;
+      
+    }
+    a:hover {
+      animation: glowing 1300ms infinite;
+      color: white;
+      
+    }
+
+    @keyframes glowing {
+      0% {
+        background-color: rgb(8, 236, 244);
+        box-shadow: 0 0 5px rgb(8, 236, 244);
+      }
+
+      50% {
+        background-color: rgb(8, 236, 244);
+        box-shadow: 0 0 20px rgb(8, 236, 244);
+      }
+
+      100% {
+        background-color: rgb(8, 236, 244);
+        box-shadow: 0 0 5px rgb(8, 236, 244);
+      }
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <div class="login-box">
+    <h2>Login</h2>
+    <form>
+      <div class="user-box">
+        <input type="text" name="" required="" />
+        <label>Username</label>
+      </div>
+      <div class="user-box">
+        <input type="password" name="" required="" />
+        <label>Password</label>
+      </div>
+      <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Submit
+      </a>
+    </form>
+  </div>
+</body>
+
+</html>
