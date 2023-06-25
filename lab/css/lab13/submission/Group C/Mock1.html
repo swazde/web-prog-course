@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  gap: 10px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.row1 {
+  grid-row: 1;
+}
+
+.column1 {
+  grid-column: 1;
+    background-color: salmon;
+}
+
+.row2 {
+  grid-row: 2;
+}
+
+.columnspan {
+  grid-column: 2 / span 2;
+    background-color: lightblue;
+}
+
+.row3 {
+  grid-row: 3;
+}
+
+.row4 {
+    grid-row: 4;
+}
+.column {
+  grid-column: 1 / span 3;
+  background-color:blanchedalmond;
+}
+
+</style>
+</head>
+<body>
+
+<h4>MOCK 1</h4>
+<hr>
+
+<div class="grid-container">
+  <div class="grid-item row1 column1"></div>
+  <div class="grid-item row1 columnspan"></div>
+  <div class="grid-item row2 column1"></div>  
+  <div class="grid-item row2 columnspan"></div>
+  <div class="grid-item row3 column1"></div>  
+  <div class="grid-item row3 columnspan"></div>
+  <div class="grid-item row4 column"></div>  
+</div>
+
+</body>
+</html>
