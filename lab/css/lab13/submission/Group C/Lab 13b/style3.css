@@ -1,0 +1,86 @@
+/*
+Group:
+    1. Name: ZAIDI BIN AHMAD, Matrix No: SX222136ECJHF03, Github ID: zydy82
+    2. Name: NUR ALIAA BINTI MOHD ARIF, Matrix No: SX222139ECJHF03, Github ID: alizan00
+    3. Name: AISYAH UMAIRAH BINTI AZMIR, Matrix No: SX222133ECJHF03, Github ID: aisyahumairah
+*/
+header {
+  background-color: #f94144;
+}
+
+nav {
+  background-color: #f3722c;
+}
+
+aside {
+  background-color: #f9c74f;
+}
+
+section {
+  background-color: #90be6d;
+}
+
+section article {
+  background-color: #4d908e;
+}
+
+footer {
+  color: white;
+  background-color: #264653;
+}
+
+body {
+  width: 70em;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "header header aside"
+    "nav nav aside"
+    "main main main"
+    "footer footer footer";
+}
+
+body>* {
+  padding: 1em;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  padding: 0;
+  width: 1078px;
+  grid-area: main;
+}
+
+aside {
+  padding: 1em;
+  width: 300px;
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+  width: 1046px;
+}
+
+main>* {
+  padding: 1em;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+main section article {
+  padding: 1em;
+  margin: 1em;
+}

@@ -1,0 +1,82 @@
+/*
+Group:
+    1. Name: ZAIDI BIN AHMAD, Matrix No: SX222136ECJHF03, Github ID: zydy82
+    2. Name: NUR ALIAA BINTI MOHD ARIF, Matrix No: SX222139ECJHF03, Github ID: alizan00
+    3. Name: AISYAH UMAIRAH BINTI AZMIR, Matrix No: SX222133ECJHF03, Github ID: aisyahumairah
+*/
+:root {
+  --color-primary: #f94144;
+  --color-secondary: #f3722c;
+  --color-tertiary: #f9c74f;
+  --color-quaternary: #90be6d;
+  --color-quinary: #4d908e;
+  --color-text: #264653;
+}
+
+body {
+  width: 50em;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "header header"
+    "nav nav"
+    "main aside"
+    "footer footer";
+}
+
+body>* {
+  padding: 1em;
+}
+
+header {
+  grid-area: header;
+  background-color: var(--color-primary);
+}
+
+nav {
+  grid-area: nav;
+  background-color: var(--color-secondary);
+}
+
+main {
+  padding: 0;
+  width: 650px;
+  grid-area: main;
+}
+
+aside {
+  padding: 1em;
+  width: 250px;
+  grid-area: aside;
+  background-color: var(--color-tertiary);
+}
+
+footer {
+  grid-area: footer;
+  color: white;
+  background-color: var(--color-text);
+}
+
+main>* {
+  padding: 1em;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+section {
+  background-color: var(--color-quaternary);
+}
+
+section article {
+  background-color: var(--color-quinary);
+}
+
+main section article {
+  padding: 1em;
+  margin: 1em;
+}
