@@ -1,0 +1,119 @@
+/*
+Lab 11: Form Layout
+Group:C
+1. Name: [Mohamad Shahirul Amin Bin Mohamed Jaffar], Matrix No: [SX220876ECJHS03], Github ID: [shahirul22]
+2. Name: [Aisyah Umairah Binti Azmir], Matrix No: [SX222133ECJHF03], Github ID: [aisyahumairah]
+3. Name: [Nur Aliaa Binti Mohd Arif], Matrix No: [Matrix Number], Github ID: [alizan00]
+4. Name: [Zaidi Bin Ahmad], Matrix No: [SX222136ECJHF03], Github ID: [zydy82]
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e4f293;
+    margin: 0px;
+}
+
+main {
+    width: 700px;
+    height: 600px;
+    flex-direction: column;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 20pt;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.master-div-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#description {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13pt;
+}
+
+#survey-form {
+    font-family: Playfair+Display;
+}
+
+.form-rows {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.labels {
+    width: 300px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.fields {
+    margin-bottom: 15px;
+}
+
+.input-fields {
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: gray;
+}
+
+#dropdown {
+    height: 30px;
+}
+
+#time-of-day {
+    padding-left: 0px;
+    direction: rtl;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#feelings {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.user-selection {
+    margin-left: 0px;
+}
+
+.button {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+#submit {
+    background-color: #05f529;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12pt;
+}
