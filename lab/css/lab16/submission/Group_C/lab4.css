@@ -1,0 +1,125 @@
+/* Reset some default styles */
+
+body, h2, h1, form {
+    margin: 20;
+    padding: 20;
+  }
+  
+  .container {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  header .btn {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: red solid 1px;
+    transition: background-color 0.3s;
+    color: red;
+    
+  }
+  header h2 a {
+    color: white;
+    position: absolute;
+    top: 3%;
+    left: 7%;
+    font-size: larger;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  header .btn:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  header a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav {
+    position: absolute;
+    top: 3%;
+    right: 7%;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .cover {
+    background-position: center;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #da3428;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: red;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .flex-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .flex-form label {
+    margin-right: 10px;
+  }
+  
+  .flex-form input[type="search"] {
+    padding: 20px 12%;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+  }
+  
+  .flex-form input[type="submit"] {
+    padding: 15px 20px;
+    background-color: #da3428;
+    color: #fff;
+    border-radius: 5px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+  }
