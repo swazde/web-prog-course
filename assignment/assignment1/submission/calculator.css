@@ -1,0 +1,101 @@
+/*
+Assignment 1: Calculator
+
+Name: Noor Lailawati Abu Bakar
+Matrix No: SX222141ECJHF03
+Github ID: akma-laila
+*/
+body{
+    background-color: rgb(32, 32, 33);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#calculator{
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;  
+    height: 550px;
+    width: 430px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+#display{
+    background-color: black;
+    color: azure;
+    border: 0px solid black;
+    font-size: xx-large;
+    text-align: center;
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+
+/*button styles*/
+.btn-num{
+    background-color: rgb(232, 232, 233);
+    border: 0px solid black;
+    color: rgb(102, 108, 120);
+    font-size: xx-large;
+}
+
+.btn-num:hover{
+    background-color: rgba(234, 149, 125, 0.5);
+}
+
+.btn-operator{
+    background-color: rgb(205, 206, 209);
+    border: 0px solid black;
+    font-size: xx-large;
+    color: rgb(102, 108, 120);
+}
+
+.btn-operator:hover{
+    background-color: rgb(205, 206, 209, 0.5);
+}
+
+#equal{
+    background-color: orangered;
+    border: 0px solid black;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+#equal:hover{
+    background-color: rgb(255, 118, 68);
+}
+
+#btn-AC{
+    background-color: rgb(13, 13, 13);
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+
+#plus{
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+#minus{
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+
+#times{
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+
+#div{
+    grid-row: 5/6;
+    grid-column: 4/5;
+}
