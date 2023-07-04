@@ -1,0 +1,28 @@
+/*
+Lab 13: Layout (Mock & Style)
+ Group:E
+    1. Name: Noor Lailawati Abu Bakar , Matric No: SX222141ECJHF03,Github id : akma-laila
+    2. Name: Azraei Hamiduddin Bin Abdul Aziz, Matric no:SX222146ECJHF03,Github id :hamiduddin-aziz
+
+*/
+body{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+header{
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+nav{
+    grid-column: 1/3;
+    grid-row: 2;
+}
+aside{
+    grid-column: 2/3;
+    grid-row: 3;
+}
+footer{
+    grid-column: 1/3;
+    grid-row: 4;
+}
